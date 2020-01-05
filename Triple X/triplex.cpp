@@ -2,20 +2,23 @@
 
 int main()
 {
-    std::cout << "You are a thief trying to get the gold from a vault!";
-    std::cout << std::endl;
-    std::cout << "You need to enter the correct codes to get access...";
+    // Print welcome messages
+    std::cout << "You are a thief trying to get the gold from a vault!" << std::endl;
+    std::cout << "You need to enter the correct codes to get access..." << std::endl;
 
-    const int a = 0;
-    const int b = 1;
-    const int c = 2;
+    const int CodeA = 0;
+    const int CodeB = 1;
+    const int CodeC = 2;
 
-    const int sum = a + b + c;
-    const int product = a * b * c;
+    const int CodeSum = CodeA + CodeB + CodeC;
+    const int CodeProduct = CodeA * CodeB * CodeC;
     
     std::cout << std::endl;
-    std::cout << sum  << std::endl;
-    std::cout << product << std::endl;
+    std::cout << "There are three numbers in the code." << std::endl;
+    std::cout << "The code adds up to: " << CodeSum  << std::endl;
+    std::cout << "And multiplying each code gives us: " << CodeProduct << std::endl;
+
+    int PlayerGuess;
     
     return 0;
 }
