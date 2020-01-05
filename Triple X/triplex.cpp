@@ -31,6 +31,7 @@ bool PlayGame(int Difficulty)
     std::cout << "There are three numbers in the code.\n";
     std::cout << "The code adds up to: " << CodeSum;
     std::cout << "\nAnd multiplying each code gives us: " << CodeProduct << std::endl;
+    std::cout << "\nEnter the three numbers of the code, separated by space\n ";
 
     int GuessA, GuessB, GuessC;
 
